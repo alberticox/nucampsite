@@ -21,12 +21,12 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center mb-3 mb-sm-0">
                     <img src="img/logo.png" class="img-fluid" />
                 </div>
                 <div class="col">
                     <h1>NuCamp</h1>
-                    <h2 class="pb-3 pb-md-0">a better way to camp</h2>
+                    <h2 class="mb-3 mb-md-0">a better way to camp</h2>
                 </div>
                 <div class="d-flex justify-content-center col-md-4 col-xl-2 align-self-center">
                     <a href="#reserveForm" class="btn btn-lg btn-info text-nowrap" role="button">Reserve Campsite</a>
@@ -43,10 +43,10 @@
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg pl-1"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg px-2 pl-2"></i> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg px-1"></i> Sites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg pr-0"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +64,7 @@
                     thumbnail" />
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
-                        <p class="d-none d-sm-block">Explore our
+                        <p class="d-none d-sm-block text-justify">Explore our
                         growing database of curated campsites and 
                         leave your own reviews!</p>
                     </div>
@@ -79,7 +79,7 @@
                 <div class="media">
                     <div class="media-body align-self-center">
                         <h3>React Lake Campground</h3>
-                        <p class="d-none d-sm-block">Nestled in the foothills of the 
+                        <p class="d-none d-sm-block text-justify">Nestled in the foothills of the 
                         Chrome Mountains, this campground on 
                         the shores of the pristine React
                         Lake is a favorite for fly fishers.</p>
@@ -99,19 +99,18 @@
                     alt="Bootstrap Outfitters" />
                     <div class="media-body align-self-center">
                         <h3>Bootstrap Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies 
+                        <p class="d-none d-sm-block text-justify">Bootstrap Outfitters supplies 
                         you with gear you need at prices you can't beat.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row row-content">
-            <div class="col-sm-6 mx-auto">
+            <div class="col-md-8 mx-auto">
+                <div class="card border-secondary">
+                    <h3 class="card-header pl-3 text-white bg-info text-center">Reserve a Campsite</h3>
 
-                <div class="card">
-                    <h3 class="pl-3 text-white bg-info">Reserve a Campsite</h3>
                     <div class="card-body">
-
                         <form id="reserveForm">
                             <div class="row form-group">
                                 <label class="col-sm-6 col-form-label" for="numCampers"> Number of Campers</label>
@@ -134,12 +133,11 @@
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-primary">Search</button>
+                                <div class="col text-center mt-2">
+                                    <button type="submit" class="btn btn-primary col-sm-6 col-4">Search</button>
                                 </div>
                             </div>
                         </form>
-
                     </div>
                 </div>
             </div>
